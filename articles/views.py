@@ -4,7 +4,7 @@ from rest_framework import status, permissions
 from rest_framework.response import Response
 from articles.models import Article, Comment
 from articles.serializers import ArticleSerializer, ArticleListSerializer, ArticleCreateSerializer, CommentSerializer, CommentCreateSerializer
-
+# test
 
 class ArticleView(APIView):
     def get(self, request):
